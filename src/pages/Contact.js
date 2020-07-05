@@ -8,7 +8,7 @@ function Contact() {
         <div>
             <Header/>
             
-            <Footer/>
+            <Footer footerText = {"© 2020 Caroline Bates"}></Footer>
         </div>
     )
 }

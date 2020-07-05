@@ -1,9 +1,9 @@
-//import React from "react";
-//import Container from "..components/Container";
+import React from "react";
+import Jumbotron from "../components/Jumbotron";
 
 function Entry() {
     return (
-        null
+        <Jumbotron/>
     )
 }
 

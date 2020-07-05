@@ -11,14 +11,23 @@ function Header () {
         </div>
         </div>
           <ul className="navbar-nav d-flex justify-content-center" id="top">
-            <li className="nav-item m-3">
-              <a className="nav-link name nav-head" href={"/bio"}>About</a>
+            <li className="nav-item">
+              <a className={
+                window.location.pathname === "/bio"
+                ? "nav-link name nav-head d-none"
+                : "nav-link name nav-head"} href={"/bio"}>About</a>
             </li>
-            <li className="nav-item m-3">
-              <a className="nav-link name nav-head" href={"/portfolio"}>Portfolio</a>
+            <li className="nav-item ml-3">
+              <a className={
+                window.location.pathname === "/portfolio"
+                ? "nav-link name nav-head d-none"
+                : "nav-link name nav-head"} href={"/portfolio"}>Portfolio</a>
             </li>
-            <li className="nav-item m-3">
-              <a className="nav-link name" href={"/contact"}>Contact</a>
+            <li className="nav-item ml-3">
+              <a className={
+                window.location.pathname === "/contact"
+                ? "nav-link name nav-head d-none"
+                : "nav-link name nav-head"} href={"/contact"}>Contact</a>
             </li>
           </ul>
         

@@ -1,0 +1,20 @@
+h1, h2 {
+    font-family: 'Lalezar', cursive;
+    letter-spacing: 4px;
+ }
+
+ .entry {
+    color: white;
+    font-family: monospace;
+    -webkit-text-stroke-width: 0.5px; 
+    -webkit-text-stroke-color: black;
+}
+
+#typewriter {
+    color: #ffffff;
+    }
+
+.jumbotron {
+    background-color:rgb(53, 53, 71); 
+}
+
