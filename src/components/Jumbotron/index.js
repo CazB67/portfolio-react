@@ -9,10 +9,10 @@ function Jumbotron (props) {
             <div className="jumbotron m-5">
                 <h1 className="pt-3 text-center" id="typewriter" >
                     <Typewriter
-                        options={{
-                            strings: ['Caroline Bates - Full Stack Developer'],
-                            autoStart: true,
-                            loop: true
+                        onInit={(typewriter) => {
+                            typewriter.typeString('Caroline Bates - Full Stack Developer')
+                              .stop(2500)
+                              .start()
                         }}
                     />              
                 </h1>
