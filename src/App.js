@@ -6,7 +6,7 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 //import Navbar from "./components/Navbar";
 //import Footer from "./components/Footer";
-import Container from "./components/Container";
+//import Container from "./components/Container";
 function App() {
   return(
     <Router>

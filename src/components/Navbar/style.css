@@ -1,0 +1,28 @@
+.navbar {
+    background-color: rgb(53, 53, 71);
+    color: #ffffff;
+}
+
+.navbar-nav {
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Lalezar', cursive;
+    letter-spacing: 4px;
+ }
+
+ .nav-link {
+    font-size: 18pt;
+    color: #ffffff;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+.name:hover, .entry:hover {
+    color: rgb(233, 144, 10);
+}
+
+.nav-head  {
+    text-shadow: 4px 4px 4px #000000;
+}
