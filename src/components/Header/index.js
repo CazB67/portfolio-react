@@ -1,7 +1,8 @@
 import React from "react";
+//import {Link} from 'react-router-dom';
 import "./style.css";
 
-function Navbar() {
+function Header () {
     return (
         <nav className="navbar navbar-expand-sm pr-1">
         <div className="container d-flex justify-content-center" >
@@ -11,13 +12,13 @@ function Navbar() {
         </div>
           <ul className="navbar-nav d-flex justify-content-center" id="top">
             <li className="nav-item m-3">
-              <a className="nav-link name nav-head" href="bio.html">About</a>
+              <a className="nav-link name nav-head" href={"/bio"}>About</a>
             </li>
             <li className="nav-item m-3">
-              <a className="nav-link name nav-head" href="portfolio.html">Portfolio</a>
+              <a className="nav-link name nav-head" href={"/portfolio"}>Portfolio</a>
             </li>
             <li className="nav-item m-3">
-              <a className="nav-link name" href="contact.html">Contact</a>
+              <a className="nav-link name" href={"/contact"}>Contact</a>
             </li>
           </ul>
         
@@ -25,4 +26,4 @@ function Navbar() {
     );
   }
   
-  export default Navbar;
+  export default Header;
