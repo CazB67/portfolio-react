@@ -4,6 +4,7 @@ import githubIcon from '../../images/icon.png';
 import resumeIcon from '../../images/icons8-download-resume-50.png';
 import linkedinIcon from '../../images/LI-In-Bug.png';
 import me from '../../images/me.jpg'
+import pdf from '../../documents/CarolineBatesResume.pdf'
 
 function Card (props) {
     return (
@@ -16,7 +17,7 @@ function Card (props) {
                         <p className="card-text">{props.cardtext2}</p>
                         <p className="card-text mb-4">{props.cardtext3}</p>
                         <div className="float-right">
-                            <a href="CarolineBatesResume.pdf" className="mr-3" target="blank">
+                            <a href={pdf} className="mr-3" target="blank">
                             <img src={resumeIcon} title="Resume" className="grow" alt="resume icon"/>
                                 </a>
                             <a href="https://github.com/CazB67" className="mr-3" title="gitHub" target="blank">
