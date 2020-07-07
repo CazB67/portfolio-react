@@ -3,7 +3,7 @@ import Jumbotron from "../components/Jumbotron";
 
 function Entry() {
     return (
-        <Jumbotron/>
+        <Jumbotron enter={"Click to Enter"}/>
     )
 }
 

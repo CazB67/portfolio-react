@@ -1,0 +1,69 @@
+.navbar, .footer, .about-me {
+    background-color: rgb(53, 53, 71);
+    color: #ffffff;
+}
+
+.navbar-nav {
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+hr {
+    background-color: rgb(53, 53, 71);
+    border: solid;
+    height:3px;
+    width:100%
+}
+
+ h1, h2 {
+    font-family: 'Lalezar', cursive;
+    letter-spacing: 4px;
+ }
+
+ .cardbackground  {
+    background-color: rgb(53, 53, 71);
+    
+ }
+
+ .card-text {
+     color: black;
+ }
+
+ .info {
+     background-color: #ffffff;
+ }
+
+ p.card-text {
+     font-size: 1.5em;
+ }
+
+ .icons {
+     color: black;
+     font-size: 0.7em;
+     font-weight: bold;
+ }
+
+.card-body {
+    min-height: 20em;
+}
+
+.description {
+    font-size: 1em;
+}
+
+.name, .about-me {
+    color: #ffffff;
+    text-shadow: 4px 4px 4px #000000;
+    
+}
+.entry:hover {
+    color: rgb(233, 144, 10);
+    
+}
+
+.grow:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}

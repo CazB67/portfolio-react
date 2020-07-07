@@ -16,7 +16,7 @@ function Jumbotron (props) {
                         }}
                     />              
                 </h1>
-                <h2 className="text-center p-2 entry"><a href="/bio" className="entry text-center nav-head">Click to Enter</a></h2>
+                    <h2 className="text-center p-2 entry"><a href="/bio" className="entry text-center nav-head">{props.enter}</a></h2>
             </div>
         </main>  
     );
