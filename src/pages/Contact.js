@@ -3,15 +3,18 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Form from "../components/Form";
+import { Container } from "../components/Grid";
 
 
 function Contact() {
     return (
-        <div>
+            <div>
             <Header/>
+            <Container containerclass="p-5">
             <Form/>
-            <Footer footerText = {"© 2020 Caroline Bates"}></Footer>
-        </div>
+            </Container>
+            <Footer footerText ="© 2020 Caroline Bates"></Footer>
+            </div>
     )
 }
 

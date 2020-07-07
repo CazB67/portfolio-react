@@ -4,7 +4,6 @@ import Icon from "../Icons";
 
 function Form (props) {
     return (
-            <main className="container p-5">
                 <div className="row">
                     <div className="col-md-6 about-me p-3">
                         <h2>Contact</h2>
@@ -30,7 +29,6 @@ function Form (props) {
                 </form>
             </div>
         </div>
-      </main>
 
       );
   }
