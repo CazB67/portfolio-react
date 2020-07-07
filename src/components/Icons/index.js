@@ -5,7 +5,7 @@ import resumeIcon from '../../images/icons8-download-resume-50.png';
 import linkedinIcon from '../../images/LI-In-Bug.png';
 import pdf from '../../documents/CarolineBatesResume.pdf'
 
-function Icon (props) {
+function Icon () {
     return (
         
                         <div className="float-right">

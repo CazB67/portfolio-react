@@ -5,7 +5,6 @@ import Icon from "../Icons";
 
 function Card (props) {
     return (
-        <main className="container p-3 mb-2">
             <section className="card text-white mb-3 mt-4 ">
                 <h2 className="card-header about-me pt-3">About Me</h2>
                 <div className="card-body mb-3">
@@ -16,7 +15,6 @@ function Card (props) {
                         <Icon/>
                     </div> 
                 </section>
-        </main>
     );
   }
   
