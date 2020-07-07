@@ -23,10 +23,6 @@ An updated portfolio created using React. It shows my projects and other informa
 
 * The URL of the GitHub repository is https://github.com/CazB67/react-portfolio
 
-The following GIF shows the application's functionality and how to use. 
-
-<img src="" width="" height="" title="React Portfolio">
-
 ## Credits
 - Team at UWA Coding Bootcamp
 
