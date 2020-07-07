@@ -6,7 +6,7 @@ function Form (props) {
     return (
                 <div className="row">
                     <div className="col-md-6 about-me p-3">
-                        <h2>Contact</h2>
+                        <h2 className="slide">Contact</h2>
                             Email: <a href="mailto:caroline.portilla@gmail.com" className="text-white name">caroline.portilla@gmail.com</a>
                     </div>
                     <div className="col-md-6"></div>

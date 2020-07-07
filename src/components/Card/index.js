@@ -6,7 +6,7 @@ import Icon from "../Icons";
 function Card (props) {
     return (
             <section className="card text-white mb-3 mt-4 ">
-                <h2 className="card-header about-me pt-3">About Me</h2>
+                <h2 className="card-header about-me pt-3 slide">About Me</h2>
                 <div className="card-body mb-3">
                     <img src={me} className="img-fluid float-left pr-3" alt="Caroline Bates"/>
                         <p className="card-text">{props.cardtext}</p>
