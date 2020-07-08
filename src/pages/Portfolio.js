@@ -14,7 +14,7 @@ function Portfolio() {
     return (
         <div>
             <Header/>
-            <Container containerclass="p-4 mt-3 mb-4">
+            <Container containerclass="container p-4 mt-3 mb-4">
                 <Heading/>
                 <Row>
                        <Col><Project image={journalImage} title="Gratitude Journal" deployedlink="https://safe-dawn-22162.herokuapp.com/" githublink="https://github.com/CazB67/gratitude-journal" description="A gratitude journal app where users can log gratitudes and enact acts of kindness. Featuring node js, sequelize, Bulma CSS, passport and Facebook authentication."/></Col>
