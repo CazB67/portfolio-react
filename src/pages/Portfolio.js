@@ -10,6 +10,7 @@ import burgerImage from '../images/burger.PNG';
 import codeImage from '../images/codequiz.PNG';
 import directoryImage from '../images/directory.PNG';
 
+
 function Portfolio() {
     return (
         <div>
@@ -17,9 +18,9 @@ function Portfolio() {
             <Container containerclass="container p-4 mt-3 mb-4">
                 <Heading/>
                 <Row>
-                       <Col><Project image={journalImage} title="Gratitude Journal" deployedlink="https://safe-dawn-22162.herokuapp.com/" githublink="https://github.com/CazB67/gratitude-journal" description="A gratitude journal app where users can log gratitudes and enact acts of kindness. Featuring node js, sequelize, Bulma CSS, passport and Facebook authentication."/></Col>
-                       <Col><Project image={surfImage}title="Find Surf Spot" deployedlink="https://cazb67.github.io/find-surf-spot-app/" githublink="https://github.com/CazB67/find-surf-spot-app" description="An app that uses the Willy Weather API to recommend the best surf sports in the Perth metro area. It uses Foundation CSS Framework and JQuery."/></Col> 
-                       <Col><Project image={weatherImage} title="Weather Dashboard" deployedlink="https://cazb67.github.io/weather-dashboard/" githublink="https://github.com/CazB67/weather-dashboard" description ="A weather dashboard that runs in the browser and features dynamically updated HTML and uses the Open Weather API to get weather data for cities."/></Col> 
+                       <Col><Project image={journalImage} title="Gratitude Journal" deployedlink="https://safe-dawn-22162.herokuapp.com/" githublink="https://github.com/CazB67/gratitude-journal" description="A gratitude journal app where users can log gratitudes. Featuring node js, sequelize, Bulma, and Facebook auth."/></Col>
+                       <Col><Project image={surfImage}title="Find Surf Spot" deployedlink="https://cazb67.github.io/find-surf-spot-app/" githublink="https://github.com/CazB67/find-surf-spot-app" description="An app that uses the Willy Weather API to recommend the best surf sports in the Perth metro area. It uses Foundation CSS and JQuery."/></Col> 
+                       <Col><Project image={weatherImage} title="Weather Dashboard" deployedlink="https://cazb67.github.io/weather-dashboard/" githublink="https://github.com/CazB67/weather-dashboard" description ="A weather dashboard that runs in the browser and features dynamically updated HTML and uses the Open Weather API."/></Col> 
                     
                 </Row>
                 <Row>

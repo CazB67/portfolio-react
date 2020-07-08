@@ -1,17 +1,23 @@
 import React from "react";
 import "./style.css";
-import me from '../../images/me.jpg'
-import Icon from "../Icons";
 
-function Technology (props) {
+//Importing all the technology images from the icons file
+function importAll(r) {
+    let images = {};
+    r.keys().map((item, index) => { 
+        return images[item.replace('./', '')] = r(item); 
+    });
+    return images;
+  }
+  
+const images = importAll(require.context('./icons', false, /\.(png|jpe?g|svg)$/));
+
+console.log(images);
+  
+function Technology () {
     return (
-                <div className="card-body mb-3">
-                    <h2 className="card-header about-me slide mb-3">About Me</h2>
-                        <img src={me} className="img-fluid float-left pr-3" alt="Caroline Bates"/>
-                        <p className="card-text">{props.cardtext}</p>
-                        <p className="card-text">{props.cardtext2}</p>
-                        <p className="card-text mb-4">{props.cardtext3}</p>
-                        <Icon/>
+                <div className="text-center">
+                    <img src={images['css.png']} alt="css"></img>
                 </div> 
            
     );

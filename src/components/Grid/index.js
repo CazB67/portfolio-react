@@ -1,5 +1,10 @@
 import React from "react";
 import "./style.css";
+import Technology from "../Technology";
+import technologies from "../Technology/technologies.json"
+//import { Container, Row, Col, Heading } from "../components/Grid";
+//import {imageLoader} from "../Technology";
+
 
 export function Container(props) {
     return <main className={props.containerclass}>
@@ -11,7 +16,8 @@ export function Container(props) {
     return <section className="row about-me p-2"> 
               <div className="col-md-12">
                   <h2 className="slide">Portfolio</h2>
-                  <p className="description text-white">Click on each image to see the deployed application or the gitHub icon to view each project's github repository.</p>
+                  <p className="description text-white">Click on each image to see the deployed application or the gitHub icon to view each project's github repository. Click on a technology icon to filter projects by technologies used.</p>
+                  <Technology  technology={technologies.css}/>
               </div>
             </section>
   }
