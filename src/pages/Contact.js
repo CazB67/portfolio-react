@@ -10,7 +10,7 @@ function Contact() {
     return (
             <div>
             <Header/>
-            <Container containerclass="p-5">
+            <Container containerclass="container mt-5">
             <Form/>
             </Container>
             <Footer footerText ="© 2020 Caroline Bates"></Footer>

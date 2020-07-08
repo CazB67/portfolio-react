@@ -1,18 +1,7 @@
-.navbar, .footer, .about-me {
+.about-me {
     background-color: rgb(53, 53, 71);
     color: #ffffff;
-}
-
-.navbar-nav {
-    flex-flow: row wrap;
-    width: 100%;
-}
-
-hr {
-    background-color: rgb(53, 53, 71);
-    border: solid;
-    height:3px;
-    width:100%
+    
 }
 
  h1, h2 {
@@ -22,7 +11,6 @@ hr {
 
  .cardbackground  {
     background-color: rgb(53, 53, 71);
-    
  }
 
  .card-text {
@@ -36,10 +24,6 @@ hr {
  p.card-text {
      font-size: 1.5em;
  }
-
-.card-body {
-    min-height: 20em;
-}
 
 .description {
     font-size: 1em;

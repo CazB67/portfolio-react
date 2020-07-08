@@ -3,7 +3,7 @@ import "./style.css";
 import me from '../../images/me.jpg'
 import Icon from "../Icons";
 
-function Card (props) {
+function Technology (props) {
     return (
                 <div className="card-body mb-3">
                     <h2 className="card-header about-me slide mb-3">About Me</h2>
@@ -17,4 +17,4 @@ function Card (props) {
     );
   }
   
-  export default Card;
+  export default Technology;
