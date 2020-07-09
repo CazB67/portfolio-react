@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Technology from "../Technology";
+//import Technology from "../Technology";
 
 
 
@@ -9,7 +9,7 @@ import Technology from "../Technology";
               <div className="col-md-12">
                   <h2 className="slide">Portfolio</h2>
                   <p className="description text-white">Click on each image to see the deployed application or the gitHub icon to view each project's github repository. Click on a technology icon to filter projects by technologies used.</p>
-                  <Technology/>
+                  {props.children}
               </div>
             </section>
   }

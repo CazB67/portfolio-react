@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./style.css";
 
 //Importing all the technology images from the icons file
@@ -13,20 +13,8 @@ function importAll(r) {
   
 const images = importAll(require.context('./icons', true, /\.(png|jpe?g|svg)$/));
 
-function Technology () {
-
-    const [clicked, setClicked] = useState("")
-    //const [grey, setGrey] = useState("card-img-top img-fluid")
-
-    const handleClick = (event) => {
-      alert("hi")
-      event.preventDefault();
-      setClicked(clicked)
-    }
-
-    // const greyProject = () => {
-    //   return clicked ? 'grey-card' : ''
-    // }
+function Technology (props) {
+ 
     const technologies = [
                             {
                               id: 1, name:'css'
@@ -51,12 +39,15 @@ function Technology () {
                             }, 
                             {
                               id: 8, name: 'JQuery'
+                            },
+                            {
+                              id: 9, name: 'handlebars'
                             }
                           ]
     return (
                 <div className="text-center technologies mb-2">
                  {technologies.map(item => (
-                   <img src={images[item.name + '.png']} key={item.id} alt="html"className="m-2" onClick={handleClick}></img>
+                   <img src={images[item.name + '.png']} key={item.id} name={item.name} alt="html" onClick={props.handleClick} className="m-2"></img>
                   ))} 
                 </div> 
            
