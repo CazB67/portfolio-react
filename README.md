@@ -4,7 +4,7 @@ Portfolio using React
 ## Description 
 ![Last Commit](https://img.shields.io/github/last-commit/cazb67/react-portfolio) ![Top Language](https://img.shields.io/github/languages/top/cazb67/react-portfolio) ![GitHub repo size](https://img.shields.io/github/repo-size/cazb67/react-portfolio) 
 
-An updated portfolio created using React. It shows my projects and other information about myself. This app  uses [Create React App](https://github.com/facebook/create-react-app) and Bootstrap CSS Framework. It features 6 projects, a `Header` component that appears on multiple pages, a `Project` component that is used multiple times on a single page, navigation with React Router and a `Footer` component that appears on multiple pages
+An updated portfolio created using React. It shows my projects and other information about myself. This app  uses [Create React App](https://github.com/facebook/create-react-app) and Bootstrap CSS Framework. It features 6 projects, a `Header` component that appears on multiple pages, a `Project` component that is used multiple times on a single page, navigation with React Router and a `Footer` component that appears on multiple pages.
 
 ## Table of Contents
 1. [Installation](#Installation)
