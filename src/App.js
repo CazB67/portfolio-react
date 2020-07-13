@@ -4,9 +4,7 @@ import Entry from "./pages/Entry";
 import Bio from "./pages/Bio";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
-//import Navbar from "./components/Navbar";
-//import Footer from "./components/Footer";
-//import Container from "./components/Container";
+
 function App() {
   return(
     <Router>
