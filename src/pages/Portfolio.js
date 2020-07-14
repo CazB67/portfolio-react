@@ -8,6 +8,7 @@ import journalImage from '../images/journal.PNG';
 import surfImage from '../images/findsurfspot.PNG';
 import weatherImage from '../images/weatherdashboard.PNG';
 import burgerImage from '../images/burger.PNG';
+import booksImage from '../images/books.PNG';
 import codeImage from '../images/codequiz.PNG';
 import directoryImage from '../images/directory.PNG';
 
@@ -29,8 +30,6 @@ function Portfolio() {
         setTech(event.target.name);
     }
 
-
-
     return (
         <div>
             <Header/>
@@ -45,6 +44,10 @@ function Portfolio() {
                        <Col><Project image={burgerImage} grey={greyProject(['css','javascript', 'bootstrap', 'html', 'mysql', 'nodejs', 'JQuery', 'handlebars'])} title="Burger App" deployedlink="https://blooming-chamber-66556.herokuapp.com/" githublink="https://github.com/CazB67/burger" description="A burger logger app using MySQL, Node, Express, Handlebars and an ORM that follows the the MVC design pattern and CRUD routes"/></Col>
                        <Col><Project image={codeImage}title="Code Quiz" grey={greyProject(['css','javascript', 'bootstrap','html'])} deployedlink="https://cazb67.github.io/code-quiz/" githublink="https://github.com/CazB67/code-quiz"  description="A timed code quiz with multiple-choice questions using Javascript and Bootstrap, that saves scores to local storage."/></Col> 
                        <Col><Project image={directoryImage} title="Employee Directory" grey={greyProject(['css', 'bootstrap','javascript', 'html','react'])}deployedlink="https://mighty-sierra-02848.herokuapp.com/" githublink="https://github.com/CazB67/employee-directory" description ="A react app that sorts employees according to firstname and filters employees on input"/></Col> 
+                </Row>
+                <Row>
+                       <Col><Project image={booksImage} grey={greyProject(['css','javascript', 'bootstrap', 'html', 'mongodb', 'react'])} title="Google Books Search App" deployedlink="https://google-books-search29.herokuapp.com/" githublink="https://github.com/CazB67/books-search" description="A MERN stack Google Books Search application"/></Col>
+                       
                 </Row>
             </Container>
             <Footer footerText = {"© 2020 Caroline Bates"}/>
