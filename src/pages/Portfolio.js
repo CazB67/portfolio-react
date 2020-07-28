@@ -11,6 +11,7 @@ import burgerImage from '../images/burger.PNG';
 import booksImage from '../images/books.PNG';
 import codeImage from '../images/codequiz.PNG';
 import directoryImage from '../images/directory.PNG';
+import basketballImage from '../images/basketball.PNG';
 
 function Portfolio() { 
     
@@ -38,7 +39,7 @@ function Portfolio() {
                 <Row>
                        <Col><Project image={journalImage}  grey={greyProject(['css','javascript', 'html', 'mysql', 'nodejs', 'JQuery', 'handlebars'])} title="Gratitude Journal" deployedlink="https://safe-dawn-22162.herokuapp.com/" githublink="https://github.com/CazB67/gratitude-journal" description="A gratitude journal app where users can log gratitudes. Featuring node js, sequelize, Bulma, and Facebook auth."/></Col>
                        <Col><Project image={surfImage} title="Find Surf Spot" deployedlink="https://cazb67.github.io/find-surf-spot-app/" grey={greyProject(['css','javascript', 'html','JQuery'])} githublink="https://github.com/CazB67/find-surf-spot-app" description="An app that uses the Willy Weather API to recommend the best surf sports in the Perth metro area. It uses Foundation CSS and JQuery."/></Col> 
-                       <Col><Project image={weatherImage} title="Weather Dashboard" grey={greyProject(['css','javascript', 'bootstrap', 'html', 'JQuery'])}deployedlink="https://cazb67.github.io/weather-dashboard/" githublink="https://github.com/CazB67/weather-dashboard" description ="A weather dashboard that runs in the browser and features dynamically updated HTML and uses the Open Weather API."/></Col> 
+                       <Col><Project image={basketballImage} title="Basketball Stats" grey={greyProject(['css','javascript', 'react', "mongodb",'bootstrap', 'html', 'node'])}deployedlink="https://basketball-stats39.herokuapp.com/" githublink="https://github.com/CazB67/basketball-stats" description ="Users can log stats. Once the game is over they can view their stats graphically."/></Col> 
                 </Row>
                 <Row>
                        <Col><Project image={burgerImage} grey={greyProject(['css','javascript', 'bootstrap', 'html', 'mysql', 'nodejs', 'JQuery', 'handlebars'])} title="Burger App" deployedlink="https://blooming-chamber-66556.herokuapp.com/" githublink="https://github.com/CazB67/burger" description="A burger logger app using MySQL, Node, Express, Handlebars and an ORM that follows the the MVC design pattern and CRUD routes"/></Col>
@@ -47,7 +48,7 @@ function Portfolio() {
                 </Row>
                 <Row>
                        <Col><Project image={booksImage} grey={greyProject(['css','javascript', 'bootstrap', 'html', 'mongodb', 'react'])} title="Google Books Search App" deployedlink="https://google-books-search29.herokuapp.com/" githublink="https://github.com/CazB67/books-search" description="A MERN stack Google Books Search application"/></Col>
-                       
+                       <Col><Project image={weatherImage} title="Weather Dashboard" grey={greyProject(['css','javascript', 'bootstrap', 'html', 'JQuery'])}deployedlink="https://cazb67.github.io/weather-dashboard/" githublink="https://github.com/CazB67/weather-dashboard" description ="A weather dashboard that runs in the browser and features dynamically updated HTML and uses the Open Weather API."/></Col>     
                 </Row>
             </Container>
             <Footer footerText = {"© 2020 Caroline Bates"}/>
