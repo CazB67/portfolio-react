@@ -8,7 +8,7 @@ import "./style.css";
     return <section className="row about-me p-2"> 
               <div className="col-md-12">
                   <h2 className="slide">Portfolio</h2>
-                  <p className="description text-white">Click on each image to see the deployed application or the gitHub icon to view each project's github repository. Click on a technology icon to filter projects by technologies used.</p>
+                  <p className="description text-white">Here are a selection of my favourite projects. Click on each image to see the deployed application or the gitHub icon to view each project's github repository. Click on a technology icon to filter projects by technologies used.</p>
                   {props.children}
               </div>
             </section>
