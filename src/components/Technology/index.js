@@ -45,6 +45,9 @@ function Technology (props) {
                             },
                             {
                               id: 10, name: 'bootstrap'
+                            },
+                            {
+                              id: 11, name: 'bulma'
                             }
                           ]
     return (
