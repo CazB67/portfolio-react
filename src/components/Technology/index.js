@@ -50,7 +50,7 @@ function Technology (props) {
     return (
                 <div className="text-center technologies mb-2">
                  {technologies.map(item => (
-                   <img src={images[item.name + '.png']} key={item.id} name={item.name} alt="html" onClick={props.handleClick} className="m-2"></img>
+                   <img src={images[item.name + '.png']} key={item.id} name={item.name} alt="html" onClick={props.handleClick} className="m-2 techImage"></img>
                   ))} 
                 </div> 
            
