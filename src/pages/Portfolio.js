@@ -12,6 +12,7 @@ import booksImage from '../images/books.PNG';
 import codeImage from '../images/codequiz.PNG';
 import directoryImage from '../images/directory.PNG';
 import basketballImage from '../images/basketball.PNG';
+import schedulerImage from '../images/scheduler.PNG';
 
 function Portfolio() { 
     
@@ -48,7 +49,8 @@ function Portfolio() {
                 </Row>
                 <Row>
                        <Col><Project image={booksImage} grey={greyProject(['css','javascript', 'bootstrap', 'html', 'mongodb', 'react'])} title="Google Books Search App" deployedlink="https://google-books-search29.herokuapp.com/" githublink="https://github.com/CazB67/books-search" description="A MERN stack Google Books Search application"/></Col>
-                       <Col><Project image={weatherImage} title="Weather Dashboard" grey={greyProject(['css','javascript', 'bootstrap', 'html', 'JQuery'])}deployedlink="https://cazb67.github.io/weather-dashboard/" githublink="https://github.com/CazB67/weather-dashboard" description ="A weather dashboard that runs in the browser and features dynamically updated HTML and uses the Open Weather API."/></Col>     
+                       <Col><Project image={weatherImage} title="Weather Dashboard" grey={greyProject(['css','javascript', 'bootstrap', 'html', 'JQuery'])}deployedlink="https://cazb67.github.io/weather-dashboard/" githublink="https://github.com/CazB67/weather-dashboard" description ="A weather dashboard that runs in the browser and features dynamically updated HTML and uses the Open Weather API."/></Col> 
+                       <Col><Project image={schedulerImage} title="Scheduler" grey={greyProject(['css','javascript', 'bootstrap', 'html', 'JQuery'])}deployedlink="https://cazb67.github.io/work-day-scheduler/" githublink="https://github.com/CazB67/work-day-scheduler" description ="A calendar app that allows the user to save events for each hour of the day. It runs in the browser and features dynamically updated HTML and CSS powered by jQuery."/></Col>     
                 </Row>
             </Container>
             <Footer footerText = {"© 2020 Caroline Bates"}/>
