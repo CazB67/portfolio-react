@@ -18,7 +18,7 @@ function Icon () {
                             <a href="https://www.linkedin.com/in/caroline-portilla-bates/" title="LinkedIn" target="blank">
                             <img src={linkedinIcon} className="grow" alt="linkedin icon"/>
                             </a>
-                            <p className="icons"> Resume {'\u00A0'} | {'\u00A0'}GitHub  | {'\u00A0'} LinkedIn |</p>
+                            <p className="mt-1 icons"> Resume {'\u00A0'} | {'\u00A0'}GitHub  | {'\u00A0'} LinkedIn |</p>
                         </div>
     );
   }
