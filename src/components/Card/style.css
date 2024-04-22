@@ -1,54 +1,63 @@
 .about-me {
-    background-color: rgb(53, 53, 71);
-    color: #ffffff;
-    
+  background-color: rgb(53, 53, 71);
+  color: #ffffff;
 }
 
- h1, h2 {
-    font-family: 'Lalezar', cursive;
-    letter-spacing: 4px;
- }
+h1,
+h2 {
+  font-family: "Lalezar", cursive;
+  letter-spacing: 4px;
+}
 
- .cardbackground  {
-    background-color: rgb(53, 53, 71);
- }
+.cardbackground {
+  background-color: rgb(53, 53, 71);
+}
 
- .card-text {
-     color: black;
- }
+.card-text {
+  color: black;
+}
 
- .info {
-     background-color: #ffffff;
- }
+.info {
+  background-color: #ffffff;
+}
 
- p.card-text {
-     font-size: 1.5em;
- }
+p.card-text {
+  font-size: 1.5em;
+}
 
 .description {
-    font-size: 1em;
+  font-size: 1em;
 }
 
-.name, .about-me {
-    color: #ffffff;
-    text-shadow: 4px 4px 4px #000000;
+.avatar {
+  border: 1px solid black;
+  border-radius: 6px;
+  margin-right: 1rem;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.name,
+.about-me {
+  color: #ffffff;
+  text-shadow: 4px 4px 4px #000000;
 }
 
 .slide {
-    animation-duration: 1s;
-    animation-name: slidein;
-   }
-      
-    @keyframes slidein {
-        from {
-          margin-left: 50%;
-          width: 300%;
-        }
-      
-        to {
-          margin-left: 0%;
-          width: 100%;
-        }
-      }
+  animation-duration: 1s;
+  animation-name: slidein;
+}
 
+@keyframes slidein {
+  from {
+    margin-left: 50%;
+    width: 300%;
+  }
 
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
