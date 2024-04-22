@@ -21,9 +21,9 @@ I need to refactor the project component to get data out of a JSON in the future
 - npm start
 
 ## Usage
-* The URL of the deployed application is https://peaceful-dry-tortugas-82820.herokuapp.com/
+* The URL of the deployed application is [https://cazb67.github.io/responsive-portfolio](https://cazb67.github.io/responsive-portfolio)
 
-* The URL of the GitHub repository is https://github.com/CazB67/react-portfolio
+* The URL of the GitHub repository is [https://github.com/CazB67/react-portfolio](https://github.com/CazB67/react-portfolio)
 
 ## Credits
 - Team at UWA Coding Bootcamp
